@@ -4,7 +4,7 @@ project "StormEngine"
    cppdialect "C++20"
    targetdir "Binaries/%{cfg.buildcfg}"
    staticruntime "off"
-
+   defines { "SE_BUILD_DLL" }
    files { "src/**.h", "src/**.cpp" }
 
    includedirs

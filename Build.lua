@@ -7,7 +7,7 @@ workspace "StormProject"
     -- Workspace-wide build options for MSVC
    filter "system:windows"
    buildoptions { "/EHsc", "/Zc:preprocessor", "/Zc:__cplusplus", "/utf-8" }
-   defines { "SE_PLATFORM_WINDOWS", "SE_BUILD_DLL"}
+   defines { "SE_PLATFORM_WINDOWS" }
 
 OutputDir = "%{cfg.system}-%{cfg.architecture}/%{cfg.buildcfg}"
 
