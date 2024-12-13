@@ -10,3 +10,6 @@ Intermediates/
 **.vcxproj.filters
 **.vcxproj.user
 **.csproj
+
+# Exclude
+!Vendor/Binaries

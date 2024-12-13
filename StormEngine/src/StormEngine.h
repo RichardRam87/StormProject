@@ -1,8 +1,9 @@
 #pragma once
 
 // For use by StormEngine applications
-#include "StormEngine/Application.h"
+#include "Core/Application.h"
+#include "Core/Log.h"
 
 // --- Entry Point ----------------
-#include "StormEngine/EntryPoint.h"
+#include "Core/EntryPoint.h"
 // --- Entry Point ----------------
